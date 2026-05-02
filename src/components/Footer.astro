@@ -1,5 +1,6 @@
 ---
-import { profileConfig, siteConfig } from "../config";
+
+import { profileConfig } from "../config";
 import { url } from "../utils/url-utils";
 
 const currentYear = new Date().getFullYear();
@@ -9,20 +10,25 @@ const currentYear = new Date().getFullYear();
 <div class="transition border-t border-black/10 dark:border-white/15 my-10 border-dashed mx-32"></div>
 <!--<div class="transition bg-[oklch(92%_0.01_var(&#45;&#45;hue))] dark:bg-black rounded-2xl py-8 mt-4 mb-8 flex flex-col items-center justify-center px-6">-->
 <div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6">
-    <!-- <img id="run-time-badge" alt="Run Time" /> -->
-    <!-- <br> -->
     <div class="transition text-50 text-sm text-center">
-        <!-- &copy; <span id="copyright-year">{currentYear}</span> {profileConfig.name}. All Rights Reserved. / -->
-        Copyright &copy; 2019 - <span id="copyright-year">{currentYear}</span> <a class="transition link text-[var(--primary)] font-medium" href={Astro.site}>{siteConfig.title}</a> /
+        &copy; <span id="copyright-year">{currentYear}</span> {profileConfig.name}. All Rights Reserved. /
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('rss.xml')}>RSS</a> /
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('sitemap-index.xml')}>Sitemap</a><br>
         Powered by
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://astro.build">Astro</a> &
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/yyhhkya/fuwari">Fuwari 二开版</a><br>
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://beian.miit.gov.cn/">粤ICP备2025491914号</a> | 
-        <a class="transition link text-[var(--primary)] font-medium" href="https://beian.mps.gov.cn/#/query/webSearch?code=44195502000155" rel="noreferrer" target="_blank">粤公网安备44195502000155号</a><br>
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://icp.gov.moe/?keyword=20251971">萌ICP备20251971号</a> | 
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://icp.sakura.ink/beian?code=1907010000">樱ICP备1907010000号</a><br>
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://www.foreverblog.cn/blog/7084/cert.html">本站已加入十年之约</a>
+        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/saicaca/fuwari">Fuwari</a>
     </div>
 </div>
+<div style="display: flex; justify-content: center;">
+  <a href="https://hopedomain.com/zh/age/mcxclr.top" target="_blank">
+    <img src="https://hopedomain.com/api/badge/domain-age/mcxclr.top?theme=blue&lang=zh" alt="域 名年龄" />
+  </a>
+<div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6">
+  <a href="https://icp.gov.moe/?keyword=20252072" target="_blank">萌ICP备20252072号
+  </a>
+  <a href="https://icp.wudu.ltd/id.php?keyword=07201314" target="_blank">雾ICP备07201314号
+  </a>
+  <a href="https://icp.we2050.com/id.php?keyword=20250720" target="_blank">团ICP备20250720号
+  </a>
+  <a href="https://icp.redcha.cn/beian/ICP-2025080040.html" title="茶ICP备2025080040号" target="_blank">茶ICP备2025080040号
+  </a>
