@@ -54,7 +54,7 @@ export const navBarConfig: NavBarConfig = {
 		    name: "脚本",
 		    url: "/scripts/",
 		    external: false,
-		}
+		},
 		LinkPreset.About,
 		{
 			name: "Github",
