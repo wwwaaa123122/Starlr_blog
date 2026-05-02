@@ -1,6 +1,5 @@
 ---
 import { getCollection, getEntry, render } from "astro:content";
-import GiscusComments from "@components/GiscusComments.astro";
 import Markdown from "@components/misc/Markdown.astro";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import type { GetStaticPaths } from "astro";
@@ -58,8 +57,7 @@ const pageIcon = entry.data.icon || "material-symbols:article";
                 <hr>
             </Markdown>
 
-            <!-- 评论区域 -->
-            {showComments && <GiscusComments />}
+            
         </div>
     </div>
 </MainGridLayout>
