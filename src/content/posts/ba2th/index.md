@@ -2,7 +2,7 @@
 title: BA周年庆直接9个彩
 published: 2025-08-07
 description: '两个亚子还有礼服日奈'
-image: './images/ba3cai.jpg'
+image: './ba3cai.jpg'
 tags: [blue archive]
 category: 'daily'
 draft: false 
