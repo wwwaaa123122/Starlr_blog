@@ -171,7 +171,7 @@ import { siteConfig } from "../config";
 ### 单语言404.astro  
 此方法直接在**src/pages**目录下创建404.astro即可  
 由于我没有语言的404，这里附上二叉树树的404界面  
-预览：![2x-404](../2x-404.jpg)
+预览：![2x-404](./2x-404.jpg)
 ```astro
 ---
 import Layout from "@/layouts/Layout.astro";
